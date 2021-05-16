@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC2G04DBVR
+D Single Inverter Gate, SOT-363
+K inverter cmos
+$ENDCMP
+#
+#End Doc Library
