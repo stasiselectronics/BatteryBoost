@@ -14,7 +14,7 @@
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
    sodipodi:docname="drawing.svg"
-   inkscape:export-filename="C:\Users\chand\Documents\Designs\Stasis Electronics\Projects\BatteryBoost_5V-24V\Output Files\Artwork Files\F_Artwork.png"
+   inkscape:export-filename="C:\Users\chand\Documents\Designs\Stasis Electronics\Projects\BatteryBoost_5V-24V\Output Files\Artwork Files\B_Artwork.png"
    inkscape:export-xdpi="3000"
    inkscape:export-ydpi="3000">
   <defs
@@ -352,11 +352,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8481572"
-     inkscape:cx="122.19924"
-     inkscape:cy="121.14711"
+     inkscape:zoom="4.0279025"
+     inkscape:cx="132.87276"
+     inkscape:cy="81.816972"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer9"
      inkscape:document-rotation="0"
      showgrid="true"
      inkscape:window-width="1920"
@@ -390,9 +390,17 @@
      id="layer9"
      inkscape:label="B_Art"
      style="display:inline">
+    <rect
+       style="fill:#000000;fill-opacity:0.0120482;stroke:none;stroke-width:0.394968"
+       id="rect18030"
+       width="78"
+       height="40"
+       x="0"
+       y="0"
+       sodipodi:insensitive="true" />
     <g
        id="g16863"
-       transform="matrix(1.9752196,0,0,1.9752196,-33.357093,-96.891513)">
+       transform="matrix(1.9752196,0,0,1.9752196,-59.008786,-95.513176)">
       <g
          id="layer1"
          inkscape:label="Layer 1"
@@ -448,7 +456,7 @@
     </g>
     <g
        id="g16883"
-       transform="translate(-1.1544623,-0.49999794)">
+       transform="translate(-27.007114,10.000002)">
       <path
          style="display:inline;fill:#000000;fill-opacity:0.995984;stroke:none;stroke-width:0.403;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect10268"
@@ -479,17 +487,17 @@
     <text
        xml:space="preserve"
        style="font-size:1px;line-height:1.25;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';stroke-width:0.264583"
-       x="11.09853"
+       x="45.09853"
        y="33.547531"
        id="text16888"><tspan
          sodipodi:role="line"
          id="tspan16886"
-         x="11.09853"
+         x="45.09853"
          y="33.547531"
          style="font-size:2px;stroke-width:0.264583">Order Number</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 9.999999,37.000002 V 35 L 11,34 h 24.500001"
+       d="M 43.999998,37.000002 V 35 l 1.000001,-1 H 69.5"
        id="path16890" />
   </g>
   <g
@@ -500,7 +508,7 @@
      sodipodi:insensitive="true">
     <g
        id="g15233"
-       transform="scale(0.00254)">
+       transform="matrix(-0.00254,0,0,0.00254,78,0)">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          id="g13488" />
@@ -2175,7 +2183,7 @@
      sodipodi:insensitive="true">
     <g
        id="g15926"
-       transform="scale(0.00254)">
+       transform="matrix(-0.00254,0,0,0.00254,77.92332,0)">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          id="g15246" />
@@ -2964,7 +2972,7 @@
      sodipodi:insensitive="true">
     <g
        id="g16732"
-       transform="scale(0.00254)">
+       transform="matrix(-0.00254,0,0,0.00254,77.92332,0)">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          id="g15932" />
