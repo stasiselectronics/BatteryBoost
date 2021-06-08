@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BatteryBoost)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/BatteryBoost.lib)(options "")(descr ""))
+)
