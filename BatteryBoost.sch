@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Battery Boost 5V - 24V"
 Date "2021-05-14"
-Rev "A01"
+Rev "A02"
 Comp ""
 Comment1 "https://github.com/stasiselectronics/BatteryBoost_5V-24V"
 Comment2 "CERN Open Hardware Licence Version 2 - Strongly Reciprocal"
@@ -211,81 +211,81 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 60A12CDF
-P 14950 -2400
-F 0 "J1" H 15030 -2358 50  0000 L CNN
-F 1 "Mounting Hole" H 15030 -2449 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 14950 -2400 50  0001 C CNN
-F 3 "~" H 14950 -2400 50  0001 C CNN
-F 4 "Do Not Order" H 14950 -2400 50  0001 C CNN "OC"
-	1    14950 -2400
+P 1900 750
+F 0 "J1" H 1980 792 50  0000 L CNN
+F 1 "Mounting Hole" H 1980 701 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 1900 750 50  0001 C CNN
+F 3 "~" H 1900 750 50  0001 C CNN
+F 4 "Do Not Order" H 1900 750 50  0001 C CNN "OC"
+	1    1900 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 60A13864
-P 14950 -2200
-F 0 "J2" H 15030 -2158 50  0000 L CNN
-F 1 "Mounting Hole" H 15030 -2249 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 14950 -2200 50  0001 C CNN
-F 3 "~" H 14950 -2200 50  0001 C CNN
-F 4 "Do Not Order" H 14950 -2200 50  0001 C CNN "OC"
-	1    14950 -2200
+P 1900 950
+F 0 "J2" H 1980 992 50  0000 L CNN
+F 1 "Mounting Hole" H 1980 901 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 1900 950 50  0001 C CNN
+F 3 "~" H 1900 950 50  0001 C CNN
+F 4 "Do Not Order" H 1900 950 50  0001 C CNN "OC"
+	1    1900 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 60A13A7E
-P 14950 -2000
-F 0 "J3" H 15030 -1958 50  0000 L CNN
-F 1 "Mounting Hole" H 15030 -2049 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 14950 -2000 50  0001 C CNN
-F 3 "~" H 14950 -2000 50  0001 C CNN
-F 4 "Do Not Order" H 14950 -2000 50  0001 C CNN "OC"
-	1    14950 -2000
+P 1900 1150
+F 0 "J3" H 1980 1192 50  0000 L CNN
+F 1 "Mounting Hole" H 1980 1101 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 1900 1150 50  0001 C CNN
+F 3 "~" H 1900 1150 50  0001 C CNN
+F 4 "Do Not Order" H 1900 1150 50  0001 C CNN "OC"
+	1    1900 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 60A13D20
-P 14950 -1800
-F 0 "J4" H 15030 -1758 50  0000 L CNN
-F 1 "Mounting Hole" H 15030 -1849 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 14950 -1800 50  0001 C CNN
-F 3 "~" H 14950 -1800 50  0001 C CNN
-F 4 "Do Not Order" H 14950 -1800 50  0001 C CNN "OC"
-	1    14950 -1800
+P 1900 1350
+F 0 "J4" H 1980 1392 50  0000 L CNN
+F 1 "Mounting Hole" H 1980 1301 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 1900 1350 50  0001 C CNN
+F 3 "~" H 1900 1350 50  0001 C CNN
+F 4 "Do Not Order" H 1900 1350 50  0001 C CNN "OC"
+	1    1900 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 60A1D275
-P 14650 -1700
-F 0 "#PWR01" H 14650 -1950 50  0001 C CNN
-F 1 "GND" H 14655 -1873 50  0000 C CNN
-F 2 "" H 14650 -1700 50  0001 C CNN
-F 3 "" H 14650 -1700 50  0001 C CNN
-	1    14650 -1700
+P 1600 1450
+F 0 "#PWR01" H 1600 1200 50  0001 C CNN
+F 1 "GND" H 1605 1277 50  0000 C CNN
+F 2 "" H 1600 1450 50  0001 C CNN
+F 3 "" H 1600 1450 50  0001 C CNN
+	1    1600 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14650 -1700 14650 -1800
+	1600 1450 1600 1350
 Wire Wire Line
-	14650 -1800 14750 -1800
+	1600 1350 1700 1350
 Wire Wire Line
-	14650 -1800 14650 -2000
+	1600 1350 1600 1150
 Wire Wire Line
-	14650 -2000 14750 -2000
-Connection ~ 14650 -1800
+	1600 1150 1700 1150
+Connection ~ 1600 1350
 Wire Wire Line
-	14650 -2000 14650 -2200
+	1600 1150 1600 950 
 Wire Wire Line
-	14650 -2200 14750 -2200
-Connection ~ 14650 -2000
+	1600 950  1700 950 
+Connection ~ 1600 1150
 Wire Wire Line
-	14650 -2200 14650 -2400
+	1600 950  1600 750 
 Wire Wire Line
-	14650 -2400 14750 -2400
-Connection ~ 14650 -2200
+	1600 750  1700 750 
+Connection ~ 1600 950 
 $Comp
 L Device:Q_PMOS_GSD Q2
 U 1 1 60AA481E
@@ -493,11 +493,11 @@ Wire Wire Line
 Wire Wire Line
 	6350 4300 6850 4300
 Wire Wire Line
-	6350 3350 7250 3350
+	6350 3350 7200 3350
 Wire Wire Line
 	6350 3900 6350 3350
 Wire Wire Line
-	7550 3350 8000 3350
+	7500 3350 8000 3350
 Wire Wire Line
 	6450 3900 6350 3900
 Wire Wire Line
@@ -505,13 +505,13 @@ Wire Wire Line
 $Comp
 L Device:L_Core_Iron L1
 U 1 1 60A84D23
-P 7400 3350
-F 0 "L1" V 7219 3350 50  0000 C CNN
-F 1 "150uH ±20% 2.15A 280mΩ" V 7310 3350 50  0000 C CNN
-F 2 "BatteryBoost:Inductor_SLH_12x12x8_HandSolder" H 7400 3350 50  0001 C CNN
-F 3 "~" H 7400 3350 50  0001 C CNN
-F 4 "C338769" V 7400 3350 50  0001 C CNN "OC"
-	1    7400 3350
+P 7350 3350
+F 0 "L1" V 7169 3350 50  0000 C CNN
+F 1 "150uH ±20% 2.15A 280mΩ" V 7260 3350 50  0000 C CNN
+F 2 "BatteryBoost:Inductor_SLH_12x12x8_HandSolder" H 7350 3350 50  0001 C CNN
+F 3 "~" H 7350 3350 50  0001 C CNN
+F 4 "C338769" V 7350 3350 50  0001 C CNN "OC"
+	1    7350 3350
 	0    1    1    0   
 $EndComp
 $Comp
