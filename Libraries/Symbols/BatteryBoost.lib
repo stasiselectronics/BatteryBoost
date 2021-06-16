@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# AP9101CK6
+#
+DEF AP9101CK6 U 0 40 Y Y 1 F N
+F0 "U" 350 250 50 H V R CNN
+F1 "AP9101CK6" -350 250 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 0 -700 50 H I C CNN
+F3 "" -450 -150 50 H I C CNN
+DRAW
+T 0 950 -200 71 0 0 0 AP9101CK6-AYTRG1 Normal 1 L C
+T 0 950 -700 50 0 0 0 "Discharge Overcurrent Detection: 0.150 V" Normal 0 L C
+T 0 950 -300 50 0 0 0 "Overcharge Detection: 4.275 V" Normal 0 L C
+T 0 950 -400 50 0 0 0 "Overcharge Release: 4.075 V" Normal 0 L C
+T 0 950 -500 50 0 0 0 "Overdischarge Detection: 2.8 V" Normal 0 L C
+T 0 950 -600 50 0 0 0 "Overdischarge Release: 2.9 V" Normal 0 L C
+S -350 200 350 -200 0 0 0 f
+X DO 1 100 -300 100 U 50 50 1 1 O
+X VM 2 450 100 100 L 50 50 1 1 I
+X CO 3 250 -300 100 U 50 50 1 1 O
+X VDD 5 -450 100 100 R 50 50 1 1 W
+X VSS 6 -450 -100 100 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # Q_PMOS
 #
 DEF Q_PMOS Q 0 0 Y N 1 F N
