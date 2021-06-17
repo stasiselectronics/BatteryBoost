@@ -1,7 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AP9101CK6
-D C507889
+D Single Cell LiIon Protection IC
+$ENDCMP
+#
+$CMP Q_DUAL_NMOS
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
 $ENDCMP
 #
 $CMP Q_PMOS

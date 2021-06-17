@@ -1,13 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Q_PMOS
-D P-MOSFET transistor
-K transistor PMOS P-MOS P-MOSFET
+$CMP AP9101CK6
+D Single Cell LiIon Protection IC
+$ENDCMP
+#
+$CMP Q_DUAL_NMOS
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_PMOS_DGS
-D P-MOSFET transistor, drain/gate/source
+$CMP Q_PMOS
+D P-MOSFET transistor
 K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
