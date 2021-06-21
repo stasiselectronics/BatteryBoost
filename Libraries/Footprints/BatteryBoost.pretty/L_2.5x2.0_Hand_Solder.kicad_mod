@@ -1,5 +1,5 @@
-(module L_2.5x2.0_Hand_Solder (layer F.Cu) (tedit 60D09DCD)
-  (fp_text reference REF** (at 0 -15.24) (layer F.SilkS)
+(module L_2.5x2.0_Hand_Solder (layer F.Cu) (tedit 60D09E84)
+  (fp_text reference REF** (at 0 -2.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value L_2.5x2.0_Hand_Solder (at 0 5.08) (layer F.Fab)
