@@ -86,8 +86,8 @@
      units="mm"
      width="101.3968mm"
      inkscape:zoom="1.4377714"
-     inkscape:cx="386.36184"
-     inkscape:cy="68.508805"
+     inkscape:cx="253.51735"
+     inkscape:cy="49.034221"
      inkscape:window-width="1920"
      inkscape:window-height="1137"
      inkscape:window-x="-8"
@@ -1152,7 +1152,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="misc"
-     style="display:inline">
+     style="display:none">
     <g
        style="fill:#840084;fill-opacity:0;stroke:#840084;stroke-width:47.2441;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="g1060"
