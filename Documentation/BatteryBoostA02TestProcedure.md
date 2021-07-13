@@ -23,11 +23,17 @@ What are the functions of the TP4056 that need to be tested?
 	- LED indication
 #### Battery Protection
 
- - Reverse Polarity Protection
- - Over current
- - Undervoltage lockout
+	- Reverse Polarity Protection
+	- Over current
+	- Undervoltage lockout
  
 ### Boost Converter
 
-The boost converter has been claiming a current of 1.5 Amps. I want to test this at 24 Volts. Can I get 
+The boost converter has been claiming a current of 1.5 Amps. I want to test this at 24 Volts. Can I get that out of a 3.7 Volt input?
+
+Testing output voltage:
+| 1 | step 1 |
+| 2 | step 2 |
+| 3 | step 3 |
+| 4 | step 4 |
 
