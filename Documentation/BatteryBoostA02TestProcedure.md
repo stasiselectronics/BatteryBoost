@@ -32,12 +32,12 @@ What are the functions of the TP4056 that need to be tested?
 The boost converter has been claiming a current of 1.5 Amps. I want to test this at 24 Volts. Can I get that out of a 3.7 Volt input?
 
 Testing output voltage:
-1 Set the resistor to its lowest resistance
-2 Measure equivalent resistance
-3 Calculate the output voltage that it would create
-4 Set the resistor to its highest resistance
-5 Measure equivalent resistance
-6 Calculate the output voltage that it would create
+1. Set the resistor to its lowest resistance
+2. Measure equivalent resistance
+3. Calculate the output voltage that it would create
+4. Set the resistor to its highest resistance
+5. Measure equivalent resistance
+6. Calculate the output voltage that it would create
 
 
 
