@@ -9,6 +9,16 @@ I have boards in hand at the moment, and need to do a little bit of planning for
 
 There are two major systems operating on this board: Battery Management and Boost Conversion
 
+But first things first, let's make sure that the board has no shorts to ground
+
+Measure resistance between the following
+1. GND and Bat+
+2. GND and VBATT
+3. GND and 5V
+4. GND and SMPS_OUTPUT
+
+
+
 ### Battery Management
 
 Within the battery management circuit, there are a few subsytems that need attention.
@@ -31,6 +41,8 @@ What are the functions of the TP4056 that need to be tested?
 
 The boost converter has been claiming a current of 1.5 Amps. I want to test this at 24 Volts. Can I get that out of a 3.7 Volt input?
 
+
+
 Testing output voltage:
 1. Set the resistor to its lowest resistance
 2. Measure equivalent resistance
@@ -38,6 +50,14 @@ Testing output voltage:
 4. Set the resistor to its highest resistance
 5. Measure equivalent resistance
 6. Calculate the output voltage that it would create
+
+
+
+Now that we know that we can create the voltages that we want (5:24) Volts, we can start giving the board some power.
+
+## Turning on the power
+
+Let's connect a bench top power supply set to 3.7 Volts and current limited to 0.150 mA. This is to keep the power supply from letting too much power into the board if there is any issue with the board.
 
 
 
