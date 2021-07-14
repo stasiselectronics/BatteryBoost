@@ -90,12 +90,28 @@ Make sure the switch is "OFF"
 | 4.1 |  |
 | 4.2 |  |
 
-7. measure output voltage for each input step
+## Finding max load
+
+Now that we know that the boost conversion works, it is time to determine what the maximum load is. 
+
+A programmable load will help make it easy to adjust the output current. Another alternative is to use appropriately rated power resistors. 
+
+| Set Output Current | Measure Output Voltage| Calculate Output Power |
+|--|--|--|
+| 200 mA |  |  |
+| 600 mA |  |  |
+| 800 mA |  |  |
+| 1 A |  |  |
+| 1.5 A |  |  |
+| 1.75 A |  |  |
 
 Temperature? We need to make sure the board isn't getting too hot.
 
-Adding Load
+What protection features are there that need to be tested?
 
-Need a programmable load to help with this testing. Need to sweep up to 1 Amp at first
+- Voltage of 150 mV or more over the current sense resistor should shutdown the boost converter. However, this needs to be tested to see what happens.
+- A voltage of 120 mV or more over the two mosfets should trip the over discharge protection on the battery charger IC.
+
+
 
 
