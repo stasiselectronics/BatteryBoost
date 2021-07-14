@@ -14,17 +14,15 @@ This board has been designed in KiCAD, the wonderful open-source Electronics CAD
 
 ## Project Status
 
-This project is very early in development, so please consider this design as unverified.
+I have recently gotten the parts and boards for revision A02. I still need to build one unit and begin functional testing.
 
-Revision A01 has been sent out for fabrication May 16, 2021. Delivery is expected Week 22-23 2021.
+Be sure to check out my instagram page for more frequent updates!
 
-The tag for this release has all the design files just as they were when the fabrication output files were generated.
+[Stasis Electronics on Instagram](https://www.instagram.com/stasis.electronics/)
 
 ### Future Testing
 
-Once the boards come in, it will need to be tested to verify functionality and limits.
-- Can it boost lithium battery voltages (3.2v:4.7v) to 5v:24v?
-- Can it deliver 1 Amp output at 24v?
-- Can it charge a lithium battery at 1 Amp?
-- Does it get too hot?
-- How much quiescient current does the board consume?
+I have started a document to outline the testing that I want to complete for this latest revision.
+
+[Check out the testing procedure!] (https://github.com/stasiselectronics/BatteryBoost_5V-24V/blob/main/Documentation/BatteryBoostA02TestProcedure.md)
+
