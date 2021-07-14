@@ -24,5 +24,5 @@ Be sure to check out my instagram page for more frequent updates!
 
 I have started a document to outline the testing that I want to complete for this latest revision.
 
-[Check out the testing procedure!] (https://github.com/stasiselectronics/BatteryBoost_5V-24V/blob/main/Documentation/BatteryBoostA02TestProcedure.md)
+[Check out the testing procedure!](https://github.com/stasiselectronics/BatteryBoost_5V-24V/blob/main/Documentation/BatteryBoostA02TestProcedure.md)
 
