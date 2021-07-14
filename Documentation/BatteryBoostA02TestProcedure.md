@@ -61,16 +61,36 @@ Now that we know that we can create the voltages that we want (5:24) Volts, we c
 
 ## Turning on the power
 
-Let's connect a bench top power supply set to 3.7 Volts and current limited to 0.150 mA. This is to keep the power supply from letting too much power into the board if there is any issue with the board.
+Let's connect a bench top power supply set to 3.7 Volts and current limited to 0.150 mA. This is to keep the power supply from letting too much power into the board if something is wrong. We can increase the current limit as the testing requires. 
 
-No load at the moment.
+No load at the moment. 
+
+Make sure the switch is "OFF"
 
 1. Set the output resistor for max voltage output
-1. Power it on and see how much power it consumes in standby
-2. flick the switch and turn on the output voltage
-3. measure the output voltage without a load
-4. sweep input voltage between 3.0 and 4.2 Volts
-5. measure output voltage for each input step
+2. Power it on and see how much power it consumes in standby
+3. flick the switch and turn on the output voltage
+4. measure the output voltage without a load
+5. sweep input voltage between 3.0 and 4.2 Volts
+
+**Table 1 : Output Voltage vs Input Voltage under no load**
+| Set Input Voltage | Measured Output Voltage |
+|--|--|
+| 3.0 |  |
+| 3.1 |  |
+| 3.2 |  |
+| 3.3 |  |
+| 3.4 |  |
+| 3.5 |  |
+| 3.6 |  |
+| 3.7 |  |
+| 3.8 |  |
+| 3.9 |  |
+| 4.0 |  |
+| 4.1 |  |
+| 4.2 |  |
+
+7. measure output voltage for each input step
 
 Temperature? We need to make sure the board isn't getting too hot.
 
