@@ -14,6 +14,8 @@ This board has been designed in KiCAD, the wonderful open-source Electronics CAD
 
 ## Project Status
 
+![A02 SMD Assembly)("https://github.com/stasiselectronics/BatteryBoost_5V-24V/blob/main/Images/Photograpsh/A02.jpg?raw=true")
+
 I have recently gotten the parts and boards for revision A02. I still need to build one unit and begin functional testing.
 
 Be sure to check out my instagram page for more frequent updates!
