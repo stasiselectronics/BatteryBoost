@@ -1,63 +1,24 @@
 # Test Procedure
-## Checking functionality and exploring limits
+<h2> Checking functionality and exploring limits </h2>
 
-This page is where I'm going to plan out the test procedure.
+As the BatteryBoost project has moved forward, I have been testing features and functionality ad hoc. That is, I have been testing things as I go. This means that I have bits and pieces of information floating around my head and maybe some written notes.
 
-I have boards in hand at the moment, and need to do a little bit of planning for how I'm going to test the board. I want to have it well documented to have as an example of how engineering tests are thought about. 
+I want to try and do something a bit better. I want to outline the testing that I need to do in order to feel confident enough to sell units of this board. 
 
-For this prototype, I want to demonstrate the the design fulfills its requirements. One issue can be that there are functionalities that haven't been restricted or objectified by a requirement. This means that we will need to evaluate its performance and see how it does. Maybe later we can determine if something should become a requirement.
+For this prototype, I want to demonstrate the the design fulfills its requirements.
 
-The overal functionality that I wish to demonstrate, is that the board can safely discharge a 3.7 V Lithium battery (Ion or Polymer) at the max output of 24 Volts at 1 Amp. We will also see if the board can exceed that without damage or failure. 
+The overall functionality that I wish to demonstrate, is that the board can safely discharge a 3.7 V Lithium battery (Ion or Polymer) at the max output of 24 Volts at 1 Amp. 
+
+We will also see if the board can exceed that without damage or failure. 
 
 ## Before Power On
 
-There are two major systems operating on this board: Battery Management and Boost Conversion
+There are two major systems operating on this board: Battery Management and Boost Conversion. The former focuses on keeping the battery healthy
 
-But first things first, let's make sure that the board has no shorts to ground
-
-Measure resistance between the following
-1. GND and Bat+
-2. GND and VBATT
-3. GND and 5V
-4. GND and SMPS_OUTPUT
+But first things first, let's make sure that the board has no shorts to ground.
 
 
 
-### Battery Management
-
-Within the battery management circuit, there are a few subsytems that need attention.
-
-#### Charge Control
-
-The lithium batteries are charged using the common TP4056 IC. It will be able to monitor the voltage of the battery and react according to certain conditions.
-
-What are the functions of the TP4056 that need to be tested?
-
-	- Charging the battery
-	- LED indication
-#### Battery Protection
-
-	- Reverse Polarity Protection
-	- Over current
-	- Undervoltage lockout
- 
-### Boost Converter
-
-The boost converter has been claiming a current of 1.5 Amps. I want to test this at 24 Volts. Can I get that out of a 3.7 Volt input?
-
-
-
-Testing output voltage:
-1. Set the resistor to its lowest resistance
-2. Measure equivalent resistance
-3. Calculate the output voltage that it would create
-4. Set the resistor to its highest resistance
-5. Measure equivalent resistance
-6. Calculate the output voltage that it would create
-
-
-
-Now that we know that we can create the voltages that we want (5:24) Volts, we can start giving the board some power.
 
 ## Turning on the power
 
@@ -111,6 +72,95 @@ What protection features are there that need to be tested?
 
 - Voltage of 150 mV or more over the current sense resistor should shutdown the boost converter. However, this needs to be tested to see what happens.
 - A voltage of 120 mV or more over the two mosfets should trip the over discharge protection on the battery charger IC.
+
+
+
+# Test Procedure
+
+How do we know our design fulfills the requirements? We test it!
+
+For simple designs this can be as straight forward as powering it on and seeing that it functions.
+
+However, for more complex designs it could require rigorous testing to verify the full functionality. This is especially the case when it comes to the professional engineering world, where documentation and full validation can be required by the customer or management.
+
+I am not a test engineer, however I sometimes find myself writing test procedures at work. I still have a lot to learn in this area, and want to use this project as a way to gain more experience.
+
+## BatteryBoost
+
+For this design, there are two major areas that need testing: Battery Management and Voltage Boost Conversion. 
+
+Each of these areas has their own mechanisms that need to be verified. For a more in depth look at these systems, check out the [documentation](TODO) or the [source files](TODO).
+
+I will also break the testing into smaller parts to help organize the documentation.
+
+## Test Equipment
+What tools do we need and how do we use them?
+
+- Multimeter
+- Programmable Load
+- Programmable Power Supply
+
+
+### Before Powering On
+
+Here we begin to look at the assembled board before we turn anything on. This way we can inspect the design without the risk of damaging our test equipment, our benches, or ourselves.
+
+A visual inspection can include looking for all sorts of things. There are the obvious issues like defects in assembly (think unmounted components, improperly mounted components, poor soldering, etcetera). 
+
+There are less obvious issues that could be seen from a visual inspection, like components that are mounted in the wrong orientation ("Pin 1" markings help to make this easier to spot), or components that are not what you ordered. Things can get mixed up when someone is assembling boards, so the wrong value of parts could be mounted. 
+
+A quick visual inspection can help to make sure the obvious issues are caught, and a detailed visual inspection could help verify the assembly is exactly what you ordered (or what you designed).
+
+#### Shorts and Opens
+
+Measure resistance between the following
+1. GND and Bat+
+2. GND and VBATT
+3. GND and 5V
+4. GND and SMPS_OUTPUT
+
+
+
+### Battery Management
+
+Within the battery management circuit, there are a few subsytems that need attention.
+
+#### Charge Control
+
+The lithium batteries are charged using the common TP4056 IC. It will be able to monitor the voltage of the battery and react according to certain conditions.
+
+What are the functions of the TP4056 that need to be tested?
+
+	- Charging the battery
+	- LED indication
+#### Battery Protection
+
+	- Reverse Polarity Protection
+	- Over current
+	- Undervoltage lockout
+ 
+### Boost Converter
+
+The boost converter has been claiming a current of 1.5 Amps. I want to test this at 24 Volts. Can I get that out of a 3.7 Volt input?
+
+
+
+Testing output voltage:
+1. Set the resistor to its lowest resistance
+2. Measure equivalent resistance
+3. Calculate the output voltage that it would create
+4. Set the resistor to its highest resistance
+5. Measure equivalent resistance
+6. Calculate the output voltage that it would create
+
+
+
+Now that we know that we can create the voltages that we want (5:24) Volts, we can start giving the board some power.
+
+
+
+
+
 
 
 
