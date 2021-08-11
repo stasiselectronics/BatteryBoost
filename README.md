@@ -1,10 +1,7 @@
 # Battery Boost Module
-<h3>3.7 V input, 5V-24V output at 1 Amp (24 Watts Max)</h3>
-At least, that's the goal.
+<h3>3.7 V input, 5V-24V output</h3>
 
-This respository contains the source files for a boost circuit designed to provide max 24V and minimum 5V at 1.5 Amps.
-
-It is a modification of my fume extractor PCB, which I used as a basis for the design.
+This respository contains the source files for a boost circuit designed to boost the voltage from a lithium battery to anywhere between 5 and 24 Volts.
 
 ## KiCAD
 
@@ -14,6 +11,7 @@ This board has been designed in KiCAD, the wonderful open-source Electronics CAD
 
 ## Project Status
 
+I have recently tested some boards and need to test my findings.
 
 ![A02 SMD Assembly](https://github.com/stasiselectronics/BatteryBoost_5V-24V/blob/main/Images/Photograpsh/A02.jpg?raw=true "A02 SMD Assembly")
 
@@ -23,9 +21,5 @@ Be sure to check out my instagram page for more frequent updates!
 
 [Stasis Electronics on Instagram](https://www.instagram.com/stasis.electronics/)
 
-### Future Testing
 
-I have started a document to outline the testing that I want to complete for this latest revision.
-
-[Check out the testing procedure!](https://github.com/stasiselectronics/BatteryBoost_5V-24V/blob/main/Documentation/BatteryBoostA02TestProcedure.md)
 
