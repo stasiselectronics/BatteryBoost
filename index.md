@@ -1,3 +1,5 @@
-# Does this work?
+---
+layout: home
+---
 
-I wonder if markdown is working
+Make Jelly site have a GitBook look!
