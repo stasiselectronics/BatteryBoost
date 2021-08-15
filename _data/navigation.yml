@@ -1,0 +1,31 @@
+main:
+  - title: "Docs"
+    url: /docs/
+  - title: "Quick Start"
+    url: /docs/quick-start/
+  - title: "About"
+    url: /about/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "Source"
+    url: "https://github.com/stasiselectronics/MicroBBPS"
+  - title: "Buy"
+    url: "https://www.tindie.com/stores/stasis/items/"
+
+docs:
+    - title: Getting Started
+      children:
+        - title: "Quick Start Guide"
+          url: /docs/quick-start/
+
+
+    - title: Hardware
+      children:
+        - title: "Schematics"
+          url: /docs/board/schematics/
+        - title: "Board Layout"
+          url: /docs/board/layout/
+        - title: "Board Assembly"
+          url: /docs/board/assembly/
+        - title: "Components"
+          url: /docs/board/components/

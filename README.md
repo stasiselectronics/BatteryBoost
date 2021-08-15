@@ -1,50 +1,10 @@
-# Jekyll GitBook
+# MicroBBPS
+This repository contains the source files for the documentation website currently hosted on Github Pages.
 
-Make Jelly site have a GitBook look!
+[View the documentation](https://stasiselectronics.github.io/MicroBBPS/)
 
-## Demo
+If you would like to view the design files, check out the [main branch](https://github.com/stasiselectronics/MicroBBPS), or the [integrated version](https://github.com/stasiselectronics/MicroBBPS/tree/variant-integrated).
 
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+These files are based off of the wonderful theme "Minimal Mistakes" by [Michael Rose](https://mmistakes.github.io/minimal-mistakes/) for Jekyll.
 
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
-
-## Why Jekyll with GitBook
-
-GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the `gh-pages`
-branch. It's quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.
-
-This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.
-
-## How to Get Started
-
-This theme can be used just as other [Jekyll themes][1].
-
-[Fork][3] this repository and add your markdown posts to the `_posts` folder.
-
-## How to generate TOC
-
-The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in `_config.yml`:
-
-```yaml
-toc:
-    enabled: true
-```
-
-## License
-
-This work is open sourced under the Apache License, Version 2.0.
-
-Copyright 2019 Tao He.
-
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
+To learn more about Jekyll, check out their [quick start](https://jekyllrb.com/docs/)
