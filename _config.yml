@@ -13,13 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Micro Breadboard Power Supply
-email:
+title: BatteryBoost
+
 description: >- # this means to ignore newlines until "baseurl:"
-  Micro USB connected breadbaord power supply released as an Open Source Hardware Project. Easily bring power to your next circuit experiment.
+  Open Source boost converter module designed for a single cell lithium battery.
 #twitter_username: username
 #github_username: username
-baseurl: /MicroBBPS
+baseurl: /BatteryBoost_5V-24V
+
 minimal_mistakes_skin: default
 search: true
 
