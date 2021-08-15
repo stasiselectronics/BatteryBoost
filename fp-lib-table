@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name BatteryBoost)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/BatteryBoost.pretty)(options "")(descr ""))
-)
