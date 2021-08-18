@@ -3,6 +3,8 @@
 
 This respository contains the source files for a boost circuit designed to boost the voltage from a lithium battery to anywhere between 5 and 24 Volts.
 
+The module includes a battery management system to help make recharging as easy as plugging in the microUSB cable.
+
 ## KiCAD
 
 This board has been designed in KiCAD, the wonderful open-source Electronics CAD software!
@@ -11,11 +13,12 @@ This board has been designed in KiCAD, the wonderful open-source Electronics CAD
 
 ## Project Status
 
-I have recently tested some boards and need to test my findings.
+I have written an article on Hackster to explain some of the lessons learned while working on this design.
 
-![A02 SMD Assembly](https://github.com/stasiselectronics/BatteryBoost_5V-24V/blob/main/Images/Photograpsh/A02.jpg?raw=true "A02 SMD Assembly")
+I still have some testing to do and write about, so stay tuned for that!
 
-I have recently gotten the parts and boards for revision A02. I still need to build one unit and begin functional testing.
+I also intend on creating a documentation companion site hosted on this repo's github page.
+
 
 Be sure to check out my instagram page for more frequent updates!
 
