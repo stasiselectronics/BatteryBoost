@@ -13,7 +13,7 @@ This board has been designed in KiCAD, the wonderful open-source Electronics CAD
 
 ## Project Status
 
-I have written an article on Hackster to explain some of the lessons learned while working on this design.
+I have written an [article on Hackster](https://www.hackster.io/stasiselectronics/lithium-battery-voltage-boost-module-5ba98e) to explain some of the lessons learned while working on this design.
 
 I still have some testing to do and write about, so stay tuned for that!
 
