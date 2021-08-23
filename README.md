@@ -1,10 +1,8 @@
-# Open Source Hardware Pages Template
+# BatteryBoost Documentation site
 
-I wanted to create a pages template for my open source hardware projects to help with documentation, sharing, and posting about it's development.
+This branch contains all the source files used to build the documentation website hosted here on Github pages. The site uses the jekyll theme [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/about/) from [Michael Rose](https://mademistakes.com/).
 
-This template uses the Minimal Mistakes Jekyll theme, and is intended to be used with github pages. Though, there's nothing stopping you from hosting it on your own domain.
-
----
+Here you can view more details about the design, with some technical explanations.
 
 ## Troubleshooting
 
